@@ -1,59 +1,25 @@
-# PracticalTestProject
-
-This project is a Django REST API that provides CRUD operations for a Product model, user authentication with JWT, role-based access control, and additional functionalities like exporting products to an Excel sheet.
-
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
-## Project Overview
-
-This project aims to provide a robust backend API for managing products, including CRUD operations, user authentication, role-based access control, and export functionality.
+# Product Management API
 
 ## Features
 
-- User registration and login with JWT authentication.
-- Role-based access control (admin and user roles).
-- CRUD operations for products.
-- Export products to an Excel sheet.
-- Bulk product creation.
-- Search and filtering functionality.
-- Rate-limiting for all endpoints.
+- **CRUD operations** on the Product table
+- **JWT Authentication** with role-based access control (Admin, User)
+- **Soft Delete** functionality
+- **Export Products** to Excel
+- **Search Products** by title and description
+- **Rate Limiting** on all endpoints
 
-## Technologies Used
-
-- Python 3.8+
-- Django 4.0+
-- Django REST Framework
-- Django REST Framework Simple JWT
-- Pillow (for image handling)
-- Openpyxl (for Excel export)
-
-## Setup Instructions
-
-### Prerequisites
+## Requirements
 
 - Python 3.8+
-- Django 4.0+
+- Django 4.x
 - Django REST Framework
-- Django REST Framework Simple JWT
-- Pillow (for image handling)
-- Openpyxl (for Excel export)
+- Simple JWT
+- openpyxl (for exporting to Excel)
 
-### Installation
+## Setup
 
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
-   cd your-repo
-
-
+   git clone <repo_url>
+   cd product_management
